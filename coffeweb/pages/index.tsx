@@ -56,7 +56,7 @@ const Home: NextPage = () => {
             </Flex>
             <Text fontSize={"2xl"} py={"10px"}>Name:</Text>
             <Input 
-              placeholder="John Doe"
+              placeholder="Your Name"
               maxLength={16} 
               value={name} 
               onChange={handleNameChange}
